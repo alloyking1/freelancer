@@ -1,0 +1,203 @@
+/* my custom styles */
+
+.banner_colored{   
+    text-align: center;
+    height: 666px;
+    /* background: linear-gradient(125deg, #2B3990, #662D91); */
+    background-image: linear-gradient( rgba(22, 41, 93, 0.8), #551f81cc ), 
+    url(./img/crypto_cover.png);
+}
+
+.banner_white{   
+    text-align: center;
+    height: auto;
+}
+
+.banner_head{
+    position: relative;
+    top: 35%;
+}
+.banner_head > h1{
+    color: white;
+    font-weight: bold;
+    font-size: 8.5rem
+}
+
+.banner_head > p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+
+/* white section */
+.banner_head_white{
+    position: relative;
+    padding-top: 10%;
+    background-color: white;
+    padding-bottom: 20%;
+}
+.banner_head_white > h1{
+    color:#363636;
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+.banner_head_white > p{
+    font-size: 1.2em;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+    color: #7d7d7d;
+    font-weight: lighter;
+}
+
+/* trading view section */
+.banner_white_chat{
+    padding: 10%;
+}
+
+/* img margin */
+.box{
+    border: 1px solid #C5C5C5 !important;
+    border-radius: 30px;
+    padding: 3%;
+    margin: 1%;
+    color: #0d1357;
+    background-color: white;
+
+}
+
+.box >img{
+    height: 100px;
+    padding-left: 37%;
+}
+
+.banner_colored_second{
+    text-align: center;
+    height: auto;
+    background: linear-gradient(125deg, #2B3990, #662D91);
+    padding: 10%;
+}
+.banner_colored_second > div{
+    padding-top: 5%;
+}
+
+/* pakages  */
+.bundle_plans > h1{
+    color: #fdfdfd;
+    font-size: 5.5rem
+}
+.bundle_plans > p{
+    color: #d4ec32;
+font-size: 1.7rem
+}
+
+/* footer */
+.footer_text{
+    font-weight: bold;
+    color: #0e0e42;
+}
+
+
+
+.btn-custom{
+    background-color: black;
+    border-radius: 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.banner_white{
+    position: relative;
+    top: 50%;
+}
+.bg_text_contianer{
+    position: relative;
+    top: 25rem;
+
+}
+
+ .bg_heading{
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.bg_text{
+    color: #bbb2b2;
+    font-size: 1.8rem;
+} 
+
+.btn_size{
+    padding: 1.5rem 3rem;
+}
+
+/* login pag */
+.panel_container{
+    margin-top: 15%;
+    margin-bottom: 7%;
+    position: relative;
+}
+
+.panel_heading_text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2a2a66;
+    text-align:center;
+}
+
+/* register */
+.reg_panel_container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;   
+}
+
+/* auth footer page styles */
+.footer_contrainer{
+    position: relative;
+    text-align: center;
+}
+
+/* media query for heading */
+@media (max-width: 480px) {
+        .banner_head > h1{
+        color: white;
+        font-weight: bold;
+        font-size: 5.5rem
+    }
+}
+
+/* media query for second heading heading */
+@media (max-width: 480px) {
+        .banner_head_white > h1{
+        color:#363636;
+        font-size: 5.5rem;
+        font-weight: bold;
+    }
+}
+
+/* media query for image */
+@media (max-width: 870px) {
+    .banner_head_white > img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* media query for image */
+@media (max-width: 870px) {
+    .chart{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* packages */
+@media (min-width: 1000px) {
+    .box{
+        width: 20%;
+    
+    }        
+}
